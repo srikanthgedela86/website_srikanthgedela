@@ -31,7 +31,11 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 14px 0;
+  flex-wrap: nowrap;
+  width: 96%;
+  max-width: 1400px;
+  padding: 12px 0;
+  gap: 15px;
 }
 
 /* Website name on left */

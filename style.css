@@ -39,10 +39,15 @@ body {
 }
 
 /* Website name on left */
+.logo {
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+
 .logo a {
   color: white;
   text-decoration: none;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: 600;
 }
 
@@ -50,20 +55,24 @@ body {
 .nav-links {
   list-style: none;
   display: flex;
-  gap: 25px;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 18px;
   margin: 0;
   padding: 0;
 }
 
 .nav-links li {
   margin: 0;
+  white-space: nowrap;
 }
 
 .nav-links a {
   color: white;
   text-decoration: none;
-  font-size: 0.95rem;
+  font-size: 0.85rem;
   font-weight: 500;
+  white-space: nowrap;
   transition: color 0.2s ease;
 }
 
